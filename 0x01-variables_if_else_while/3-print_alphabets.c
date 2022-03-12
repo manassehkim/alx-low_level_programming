@@ -22,8 +22,8 @@ int main(void)
 		upper++;
 	}
 
-	purchar('\n');
+	putchar('\n');
 
-	return(0);
+	return (0);
 }
 
