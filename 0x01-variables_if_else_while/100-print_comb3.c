@@ -8,7 +8,7 @@
 int main(void)
 {
 	int ones;
-	int twos;
+	int tens;
 
 	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
 	{
@@ -27,4 +27,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}
+
