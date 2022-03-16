@@ -18,6 +18,8 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		printf("%li", b);
+		putchar(',');
+		putchar(' ');
 		a += b;
 		b += a;
 	}
