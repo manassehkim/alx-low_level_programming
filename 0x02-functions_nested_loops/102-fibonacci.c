@@ -14,9 +14,10 @@ int main(void)
 
 	for (counter = 1; counter <= (countto / 2); counter++)
 	{
-		printf("%li %li", a, b);
+		printf("%li", a);
 		putchar(',');
 		putchar(' ');
+		printf("%li", b);
 		a += b;
 		b += a;
 	}
