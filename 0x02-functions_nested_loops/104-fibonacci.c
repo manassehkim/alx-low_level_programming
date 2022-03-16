@@ -38,7 +38,7 @@ int main(void)
 
 		a_head = b_head;
 		a_tail = b_tail;
-		b_bead = sum_head;
+		b_head = sum_head;
 		b_tail = sum_tail;
 
 	}
