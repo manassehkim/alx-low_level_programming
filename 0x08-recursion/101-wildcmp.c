@@ -11,7 +11,8 @@ int wildcmp(char *s1, char *s2)
 	while (s1[i] != '\0' && s2[j] != '\0')
 	{
 		if (s1[i] == s2[j])
-			i++; j++;
+			i++; 
+			j++;
 		if (s2[j] == "*")
 		{
 			j++;
